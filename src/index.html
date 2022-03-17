@@ -1,31 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Визитка начинающего веб-разработчика">
     <meta name="author" content="Владислав">
     <meta name="keywords" content="Заказать создание сайта, купить сайт, нанять веб-разработчика">
     <meta name="robot" content="Визитка начинающего веб-разработчика">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
+    <title>Мой сайт-визитка</title>
 </head>
-
 <body>
     
     <header>
         <nav>
-            <div class="name_surname">Владислав Сергеев</div>
-            <div claas="menu">Обо мне</div>
-            <div claas="menu">Портфолио</div>
-            <div claas="menu">Прайс</div>
-            <div claas="menu">Отзывы</div>
-            <div claas="menu">Связь</div>
+           <div class="menu"><ul>
+            <li><a href="#me_id">Обо мне</a></li>
+             <li><a href="#work">Портфолио</a></li>
+             <li><a href="#price">Прайс</a></li>
+             <li><a href="#comment">Отзывы</a></li>
+             <li><a href="#phone">Связь</a></li>  
+           </ul></div>
+           <div class="vk_inst_teleg">
+               <a href="" target="_blank">
+                   <img src="img/vk.png" alt="Вконтакте" style="width:30px;height:30px">
+               </a>
+               <a href="" target="_blank">
+                   <img src="img/instagram.jpg" alt="Инстаграм" style="width:30px;height:30px">
+               </a>
+               <a href="" target="_blank">
+                   <img src="img/telegram.jpg" alt="Телеграм" style="width:30px; height:30px">
+               </a>
+           </div>
         </nav>
     </header>
     
+    <div>
+       <div class="welcome">Веб-разработчик</div>
+       <div class="name_surname">Владислав Сергеев</div>
+       <div class="welcome">Добро пожаловать на мой сайт-портфолио</div>
+       <a href="#work">Мои работы</a>
+    </div>
     
+    <div>
+        <div class="me">
+           <h2 id="me_id">Обо мне</h2>
+        </div>
+        <div class="me_infomation">
+           <p>Начинающий веб-разработчик</p>
+        </div>
+    </div>
     
+    <div>
+        <div class="my_skills">
+            <h2>Что я умею</h2>
+        </div>
+        <div class="my_skills_infomation">
+            <p>Я могу</p>
+        </div>
+    </div>
     
+    <div>
+        <h2 id="price">Прайс</h2>    
+    </div>
+    
+    <div>
+        <h2 id="comment">Отзывы</h2>
+    </div>
+    
+    <div>
+        <h2 id="work">Мои работы</h2>
+    </div>
+    
+    <footer>
+        <div>
+           <h2 id="phone">Связь</h2>
+           <p>Номер телефона</p>
+        </div>
+    
+        <a href="" target="_blank">
+            <img src="img/vk.png" alt="Вконтакте" style="width:30px;height:30px">
+        </a>
+        <a href="" target="_blank">
+            <img src="img/instagram.jpg" alt="Инстаграм" style="width:30px;height:30px">
+        </a>
+        <a href="" target="_blank">
+            <img src="img/telegram.jpg" alt="Телеграм" style="width:30px; height:30px">
+        </a>
+    </footer>
+     
 </body>
-
 </html>
