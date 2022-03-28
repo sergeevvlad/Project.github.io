@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <meta name="description" content="Визитка начинающего веб-разработчика">
     <meta name="author" content="Владислав">
     <meta name="keywords" content="Заказать создание сайта, купить сайт, нанять веб-разработчика">
     <meta name="robot" content="Визитка начинающего веб-разработчика">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
     <title>Мой сайт-визитка</title>
 </head>
 <body>
@@ -21,34 +22,40 @@
              <li><a href="#comment">Отзывы</a></li>
              <li><a href="#phone">Связь</a></li>  
            </ul></div>
-           <div class="vk_inst_teleg">
-               <a href="" target="_blank">
+           <div class="vk">
+               <a href="https://vk.com/vladislavsergeev1" target="_blank">
                    <img src="img/vk.png" alt="Вконтакте" style="width:30px;height:30px">
                </a>
-               <a href="" target="_blank">
-                   <img src="img/instagram.jpg" alt="Инстаграм" style="width:30px;height:30px">
+            </div>
+            <div class="inst">     
+               <a href="https://instagram.com/m0nixy?utm_medium=copy_link" target="_blank">
+                   <img src="img/instagram.png" alt="Инстаграм" style="width:30px;height:30px">
                </a>
-               <a href="" target="_blank">
-                   <img src="img/telegram.jpg" alt="Телеграм" style="width:30px; height:30px">
-               </a>
-           </div>
+            </div>
         </nav>
     </header>
     
-    <div>
-       <div class="welcome">Веб-разработчик</div>
-       <div class="name_surname">Владислав Сергеев</div>
-       <div class="welcome">Добро пожаловать на мой сайт-портфолио</div>
-       <a href="#work">Мои работы</a>
-    </div>
+        <div class="main">
+            <div class="job">
+                <h2>Веб-разработчик</h2>
+            </div>
+            <div class="name">
+                <h1>Владислав Сергеев</h1>
+            </div>
+            <div>
+                <h2 class="welcome">Добро пожаловать на мой сайт-портфолио</h2>
+            </div>
+                <a href="#work">Мои работы</a>
+         </div>
     
     <div>
         <div class="me">
            <h2 id="me_id">Обо мне</h2>
         </div>
-        <div class="me_infomation">
+        <div class="me_information">
            <p>Здраствуйте, я Владислав Сергеев - начинающий веб-разработчик</p>
         </div>
+        <img src="img/picture.jpg" alt="Picture">
     </div>
     
     <div>
@@ -58,15 +65,11 @@
         <div class="my_skills_infomation">
             <p>Вёрстка сайтов</p>
         </div>
+        <img src="img/programm.png" alt="HTML5" class="picture2">
     </div>
     
     <div>
-        <div>
-            <h2 id="price">Прайс</h2>
-        </div> 
-        <div>
-            
-        </div>   
+        <h2 id="price">Прайс</h2> 
     </div>
     
     <div>
@@ -74,7 +77,7 @@
             <h2 id="work">Мои работы</h2>
         </div>
         <div>
-            <p>Пока что их нет :)</p>
+            <p id="my_work">Пока что их нет :)</p>
         </div>
     </div>
     
@@ -85,15 +88,14 @@
     <footer>
         <div id="phone">
            <p>+79781370920</p>
-           <a href="" target="_blank">
-               <img src="img/vk.png" alt="Вконтакте" style="width:30px;height:30px">
-           </a>
-           <a href="" target="_blank">
-               <img src="img/instagram.jpg" alt="Инстаграм" style="width:30px;height:30px">
-           </a>
-           <a href="" target="_blank">
-               <img src="img/telegram.jpg" alt="Телеграм" style="width:30px; height:30px">
-           </a>
+           <div class="vk_inst2">
+               <a href="https://vk.com/vladislavsergeev1" target="_blank">
+                   <img src="img/vk.png" alt="Вконтакте" style="width:30px;height:30px">
+               </a>
+               <a href="https://instagram.com/m0nixy?utm_medium=copy_link" target="_blank">
+                   <img src="img/instagram.png" alt="Инстаграм" style="width:30px;height:30px">
+               </a>
+           </div>
         </div>
     </footer>
      
