@@ -80,6 +80,12 @@ nav{
     text-align: center; 
 }
 
+.picture2{
+    height: 100px;
+    width: 250px;
+    margin-left: 710px;
+}
+
 #price{
     text-align: center;
     font-size: 50px;
